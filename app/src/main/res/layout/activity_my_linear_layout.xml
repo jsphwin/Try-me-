@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MyLinearLayout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="Linear Layout No Weight"
+        android:id="@+id/tvDisplay"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/tvHello"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:background="#673AB7"
+        android:text="Hello" />
+
+    <TextView
+        android:id="@+id/tvWorld"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:background="#FFEB38"
+        android:text="World" />
+
+    <TextView
+        android:id="@+id/tvUniverse"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:background="#03A9F4"
+        android:text="Universe" />
+
+    <TextView
+        android:id="@+id/tvMyName"
+        android:layout_width="fill_parent"
+        android:layout_height="137dp"
+        android:background="#FF5722"
+        android:text="Martzel Baste" />
+
+
+</LinearLayout>
